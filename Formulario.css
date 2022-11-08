@@ -1,0 +1,97 @@
+#body{
+    background-color: white;
+}
+#formulario{
+    border:3px solid ;
+    margin-left:355px; 
+    background-color:lightblue; 
+    width: 700px; 
+    height: 600px; 
+    margin-right: 10px; 
+    border-radius: 20px;
+    margin-top: 40px;
+   
+}
+.barrita{
+    margin-top: 20px;
+    width: 90%;
+    border-bottom: 3px solid black;
+    margin-left: 30px;
+    
+}
+.btn_abajo{
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-left: 60px;
+    margin-right: 50px;
+    margin-top: 30px;
+    font-size: 17px;
+}
+
+.cont_abajo{
+    margin-top: 30px;
+    border-top: 3px solid black;
+    background: lightblue;
+    height: 16%;
+    width: 100%;
+    border-radius: 20px;
+   
+}
+
+.boton{
+    padding: 12px 20px;
+    margin-left: 25px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.contenedor{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+label{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.estiloinputs{
+    border: 2px solid gray;
+    margin-left: 20px;
+    height: 45px; width: 90%;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#nuevo{
+    background: blue;
+    border-color: blue;
+    color: white;
+    margin-right: 10px;
+}
+#guardar{
+    background: rgb(40,167,69);
+    border-color:rgb(40,167,69);
+    color: white;
+    margin-right: 10px;
+}
+
+#cancelar{
+    background: rgb(23,162,184);
+    border-color: rgb(23,162,184);
+    color: white;
+    margin-right: 10px;
+}
+.botones{
+    margin-left: 70px;
+}
+#boton{
+    background-color:black;
+    color:white;
+}
+#eliminar{
+    background: rgb(220,53,69);
+    border-color: rgb(220,53,69);
+    color: white;
+    margin-right: 10px;
+}

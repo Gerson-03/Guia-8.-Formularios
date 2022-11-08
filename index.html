@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Formulario</title>
+        <link rel="stylesheet" href="Formulario.css">
+        
+    </head>
+    <body id="body">
+        <form id="formulario">
+            <div class="botones">
+                <input onclick="Nuevo()" type="button" value="Nuevo" class="boton" id="nuevo">
+                <input onclick="Guardar()" type="button" value="Guardar" class="boton" id="guardar">
+                <input onclick="Cancelar()" type="button" value="Cancelar" class="boton" id="cancelar">
+                <input onclick="Eliminar()" type="button" value="Eliminar" class="boton" id="eliminar">
+                
+            </div>
+            <div class="barrita"></div>
+            <div class="contenedor">
+                <label class="name">Nombre: </label>
+                <input id="inp_nombre" type="text" class="estiloinputs"/>
+            
+                <label class="name">Apellido: </label>
+                <input id="inp_apellido" type="text" class="estiloinputs" />
+            
+                <label class="name">Carrera: </label>
+                <select id="inp_carreras" class="estiloinputs">
+                    <option value="1">Seleccione</option>
+                    <option value="2">Ing.Sistema</option>
+                    <option value="3">Ing.Telematica</option>
+                    <option value="4">Odontoligia</option>
+                    <option value="5">Medicina</option>
+
+
+                </select>
+                
+                <label class="name">Sexo: </label><br><br>
+                <label><input type="radio" id="inp_masculino">Masculino</label><br>
+                <label><input type="radio" id="inp_femenino">Femenino</label><br><br><br>
+                <label><input type="checkbox" id="inp_egresado">¿Egresado?</label><br><br>
+            </div>
+            
+            <div class="cont_abajo">
+                <input onclick="position(2,0)" type="button" value="<<" class="btn_abajo" id="boton">
+                <input onclick="position(1,0)" type="button" value="<" class="btn_abajo" id="boton">
+                <input onclick="position(1,1)" type="button" value=">" class="btn_abajo" id="boton">
+                <input onclick="position(2,1)"type="button" value=">>" class="btn_abajo" id="boton">
+            </div>
+        </form>
+        <script src="Formulario.js"></script>
+    </body>
+</html>
